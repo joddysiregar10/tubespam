@@ -36,7 +36,7 @@ const InputSearch = ({ navigate }) => {
         <View style={styles.inputDirection}>
           <Feather
             style={styles.icon}
-            name="search"
+            name="Pencarian"
             size={20}
             color={darkGray}
           />
@@ -45,15 +45,15 @@ const InputSearch = ({ navigate }) => {
             onSubmitEditing={handleSubmit}
             onChangeText={value => onChangeSearch(value)}
             value={search}
-            accessibilityRole="search"
-            returnKeyType="search"
+            accessibilityRole="Cari"
+            returnKeyType="Cari"
             keyboardType="default"
             blurOnSubmit
             multiline={false}
             autoCorrect={false}
             underlineColorAndroid="transparent"
             placeholderTextColor={darkGray}
-            placeholder="Search"
+            placeholder="Pencarian"
           />
           {search.length > 0 && (
             <TouchableOpacity onPress={handleClearSearch}>
