@@ -47,7 +47,7 @@ const AppNavigator = () => (
           options={{
             ...defaultNavigationOptions,
             tabBarIcon: ({ color }) => (
-              <Feather name="NKuy" size={20} color={color} />
+              <Feather name="home" size={20} color={color} />
             )
           }}
         />
@@ -57,7 +57,7 @@ const AppNavigator = () => (
           options={{
             ...defaultNavigationOptions,
             tabBarIcon: ({ color }) => (
-              <Feather name="Pencarian" size={20} color={color} />
+              <Feather name="search" size={20} color={color} />
             )
           }}
         />

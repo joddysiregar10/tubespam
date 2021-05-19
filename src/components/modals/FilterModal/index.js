@@ -40,16 +40,16 @@ const FilterModal = forwardRef(
             <View style={styles.containerScroll}>
               <View style={styles.containerSection}>
                 <Text style={styles.optionSectionTitle} numberOfLines={2}>
-                  Date
+                  Tahun
                 </Text>
                 <Filter
-                  title="Releases"
+                  title="Baru dirilis"
                   type="release_date.desc"
                   selected={type}
                   onChange={changeValues}
                 />
                 <Filter
-                  title="Old"
+                  title="Lama"
                   type="release_date.asc"
                   selected={type}
                   onChange={changeValues}
@@ -57,16 +57,16 @@ const FilterModal = forwardRef(
               </View>
               <View style={styles.containerSection}>
                 <Text style={styles.optionSectionTitle} numberOfLines={2}>
-                  Popularity
+                  Terpopuler
                 </Text>
                 <Filter
-                  title="Most popular"
+                  title="Paling populer"
                   type="popularity.desc"
                   selected={type}
                   onChange={changeValues}
                 />
                 <Filter
-                  title="Less popular"
+                  title="Populer"
                   type="popularity.asc"
                   selected={type}
                   onChange={changeValues}
@@ -74,16 +74,16 @@ const FilterModal = forwardRef(
               </View>
               <View>
                 <Text style={styles.optionSectionTitle} numberOfLines={2}>
-                  Revenue
+                  Terbaru
                 </Text>
                 <Filter
-                  title="Higher revenue"
+                  title="Paling Terbaru"
                   type="revenue.desc"
                   selected={type}
                   onChange={changeValues}
                 />
                 <Filter
-                  title="Lowest revenue"
+                  title="Lawas"
                   type="revenue.asc"
                   selected={type}
                   onChange={changeValues}

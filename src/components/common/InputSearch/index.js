@@ -24,7 +24,7 @@ const InputSearch = ({ navigate }) => {
   const handleSubmit = () => {
     if (search) {
       navigate(ROUTES.SEARCH_RESULTS, {
-        typeRequest: 'Pencarian',
+        typeRequest: 'search',
         name: search
       });
     }
@@ -36,7 +36,7 @@ const InputSearch = ({ navigate }) => {
         <View style={styles.inputDirection}>
           <Feather
             style={styles.icon}
-            name="Pencarian"
+            name="search"
             size={20}
             color={darkGray}
           />
@@ -45,8 +45,8 @@ const InputSearch = ({ navigate }) => {
             onSubmitEditing={handleSubmit}
             onChangeText={value => onChangeSearch(value)}
             value={search}
-            accessibilityRole="Cari"
-            returnKeyType="Cari"
+            accessibilityRole="search"
+            returnKeyType="search"
             keyboardType="default"
             blurOnSubmit
             multiline={false}
