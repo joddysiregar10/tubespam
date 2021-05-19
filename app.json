@@ -4,9 +4,9 @@
     "slug": "tubespam",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/images/splash.png",
+    "icon": "./assets/splash.png",
     "splash": {
-      "image": "./src/assets/images/icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
